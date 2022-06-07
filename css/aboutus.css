@@ -1,0 +1,35 @@
+.info-content__block-column {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.info-content__text-block {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.info-content__text {
+   font-size: 18px;
+   line-height: 32px;
+}
+
+.info-content__text:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+.info-content__img-block {
+   position: relative;
+   width: 602px;
+   height: 592px;
+   overflow: hidden;
+}
+
+.info-content__main-img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 100%;
+   height: 100%;
+   transform: translate(-50%, -50%);
+}

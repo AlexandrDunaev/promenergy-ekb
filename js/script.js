@@ -74,3 +74,11 @@ const newsSwiper = new Swiper('.news__swiper', {
       prevEl: '.news__swiper-button-prev',
    },
 });
+
+ymaps.ready(init);
+function init() {
+   var myMap = new ymaps.Map("map", {
+      center: [56.880460, 60.631287],
+      zoom: 18
+   });
+}

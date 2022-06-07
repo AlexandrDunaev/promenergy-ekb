@@ -569,12 +569,14 @@ body {
    margin-bottom: 10px;
    font-size: 22px;
    font-weight: 600;
-   border: 2px solid var(--border-inner);
+   border: 2px solid var(--light-gray);
    border-radius: 5px;
    background-color: var(--inner);
 }
 
-.tabs-nav__btn:hover {
+.tabs-nav__btn:hover,
+.tabs-nav__btn:focus,
+.tabs-nav__btn:active {
    color: var(--secondary);
    border: 2px solid var(--secondary);
 }

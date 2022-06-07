@@ -1,0 +1,146 @@
+.services-content__tabs-block {
+   flex-direction: column;
+}
+
+.services-content__block:not(:last-child) {
+   margin-bottom: 30px;
+}
+
+.services-content__block-column {
+   display: flex;
+   justify-content: center;
+}
+
+.services-content__img-block {
+   position: relative;
+   height: 431px;
+   width: 437px;
+   overflow: hidden;
+}
+
+.services-content__milling-block {
+   justify-content: space-between;
+}
+
+.services-content__img-milling {
+   height: 490px;
+   border-radius: 5px;
+}
+
+.services-content__main-img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 220%;
+}
+
+.service-content__text {
+   padding-left: 20px;
+   font-size: 18px;
+   line-height: 32px;
+   font-weight: 500;
+}
+
+.services-content__subtitle {
+   padding: 0;
+   margin-bottom: 20px;
+   font-size: 32px;
+}
+
+.services-content__list-item {
+   display: flex;
+   align-items: center;
+   margin-bottom: 16px;
+   padding-right: 30px;
+   font-size: 18px;
+   line-height: 28px;
+}
+
+.services-content__list-price {
+   padding-left: 40px;
+}
+
+.list-item__icon {
+   position: relative;
+   top: 0px;
+   display: inline-block;
+   padding-right: 21px;
+   margin-right: 20px;
+   width: 21px;
+   height: 21px;
+   background-image: url(../img/production/ourwork/checked.png);
+   background-repeat: no-repeat;
+}
+
+.services__right {
+   padding-left: 20px;
+   padding-right: 30px;
+}
+
+.services-content__img-top,
+.services-content__img-bottom {
+   position: relative;
+   border-radius: 5px;
+   overflow: hidden;
+}
+
+.services-content__img-top {
+   height: 430px;
+   width: 430px;
+   margin-bottom: 15px;
+}
+
+.services-content__img-bottom {
+   height: 340px;
+   width: 430px;
+}
+
+.services-content__img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 210%;
+}
+
+.services-content__center-img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 150%;
+   filter: grayscale(1);
+}
+
+.services-content__descr-block {
+   font-size: 18px;
+   line-height: 32px;
+   letter-spacing: 0.02em;
+}
+
+.services-content__descr-title {
+   margin-bottom: 7px;
+   font-size: 32px;
+   line-height: 45px;
+   font-weight: 700;
+}
+
+.services-content__descr-text,
+.services-content__descr-subtitle {
+   margin-bottom: 18px;
+}
+
+
+.descr-list__item {
+   margin-bottom: 16px;
+}
+
+.descr-list__icon {
+   position: relative;
+   top: 5px;
+   display: inline-block;
+   width: 21px;
+   height: 21px;
+   background-image: url(../img/index/equipment/checked.png);
+}
