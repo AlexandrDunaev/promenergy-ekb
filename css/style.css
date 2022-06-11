@@ -2232,7 +2232,7 @@ body {
       background-color: var(--secondary);
    }
 
-   .burger-menu {
+   .burger-menu .is-active {
       display: block;
    }
 
@@ -2673,7 +2673,7 @@ body {
       display: block;
    }
 
-   .burger-menu {
+   .burger-menu .is-active {
       display: block;
    }
 
