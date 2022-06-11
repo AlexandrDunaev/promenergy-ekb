@@ -2,3 +2,15 @@
    margin-bottom: 40px;
 
 }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   .news-container {
+      padding-top: 140px;
+   }
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+   .news-container {
+      padding-top: 100px;
+   }
+}

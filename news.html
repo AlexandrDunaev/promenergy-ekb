@@ -22,7 +22,7 @@
          <div class="container header__container">
             <div class="row header-top">
 
-               <div class="col-lg-4 p-0 m-0">
+               <div class="col-lg-5 col-md-5 p-0 m-0">
                   <a href="contacts.html#map" class="header-top__pin-link header-top__item">
                      <span class="pin-link__icon">
                         <svg height="18pt" viewBox="-119 -21 682 682.66669" width="13pt"
@@ -37,7 +37,7 @@
                   </a>
                </div>
 
-               <div class="col-lg-4">
+               <div class="col-lg-3 col-md-3">
                   <a href="mailto:promenergo-ekb@bk.ru" class="header-top__mail-link header-top__item">
                      <span class="mail-link__icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -51,7 +51,7 @@
                   </a>
                </div>
 
-               <div class="col-lg-4">
+               <div class="col-lg-4 col-md-4">
                   <nav class="header-top__nav header-top__item">
                      <li class="header-top__nav-item">
                         <a href="#" class="header-top__nav-link">
@@ -80,7 +80,8 @@
          <div class="container header__container">
             <div class="row header-middle">
 
-               <div class="col-lg-2">
+
+               <div class="col-lg-2 col-md-4 col-sm-12 col-10">
                   <a href="index.html" class="header-middle__logo-link">
                      <img src="img/general/header/logo.png" alt="" class="logo-link__icon-img">
                      <div class="logo-link__img-block">
@@ -96,7 +97,8 @@
 
                </div>
 
-               <div class="col-lg-5 offset-lg-1">
+
+               <div class="col-lg-5 offset-lg-1 col-md-1 header__search-block">
                   <form class="header__search">
                      <input type="search" class="header__search-input" placeholder="Поиск по сайту">
                      <span class="header__search-icon">
@@ -108,7 +110,13 @@
                   </form>
                </div>
 
-               <div class="col-lg-2">
+               <div class="col-sm-2 col-2 burger__block">
+                  <button class="burger" id="burger">
+                     <span class="burger__item"></span>
+                  </button>
+               </div>
+
+               <div class="col-lg-2 col-md-3 col-sm-7 col-7 header__phone-block">
                   <div class="header-middle__phone-block">
                      <span class="header-middle__phone-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513.64 513.64">
@@ -124,7 +132,7 @@
                   </div>
                </div>
 
-               <div class="col-lg-2">
+               <div class="col-lg-2 col-md-3 col-sm-3 col-3 header-middle__button-block">
                   <button class="header-middle__btn main__btn">
                      Заказать звонок
                   </button>
@@ -137,6 +145,47 @@
 
       <div class="header-bottom__container">
          <div class="container header__container">
+
+            <nav id="burger-menu" class="burger-menu">
+               <ul class="burger-menu__list">
+                  <li class="burger-menu__item">
+                     <a href="products.html" class="burger-menu__link">
+                        Продукция
+                     </a>
+                  </li>
+                  <li class="burger-menu__item">
+                     <a href="services.html" class="burger-menu__link">
+                        Услуги
+                     </a>
+                  </li>
+                  <li class="burger-menu__item">
+                     <a href="prodaction.html" class="burger-menu__link">
+                        Производство
+                     </a>
+                  </li>
+                  <li class="burger-menu__item">
+                     <a href="equipment.html" class="burger-menu__link">
+                        Оборудование
+                     </a>
+                  </li>
+                  <li class="burger-menu__item">
+                     <a href="aboutus.html" class="burger-menu__link">
+                        О компании
+                     </a>
+                  </li>
+                  <li class="burger-menu__item">
+                     <a href="news.html" class="burger-menu__link">
+                        Новости
+                     </a>
+                  </li>
+                  <li class="burger-menu__item">
+                     <a href="contacts.html" class="burger-menu__link">
+                        Контакты
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+
             <div class="row header-bottom">
 
                <nav class="header-bottom__nav">
@@ -181,6 +230,8 @@
          </div>
       </div>
 
+
+
    </header>
 
    <main class="main">
@@ -188,7 +239,7 @@
       <section class="news">
          <div class="container news-container">
             <h2 class="news__title section__title">
-               Новости
+               Новости компании
             </h2>
 
             <!-- Slider main container -->
@@ -274,88 +325,10 @@
 
 
             </div>
-            <div class="news__swiper swiper">
-               <!-- Additional required wrapper -->
-               <div class="news__swiper-wrapper swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="news__swiper-slide swiper-slide">
-                     <a class="news-block">
-                        <div class="news-card">
-                           <div class="news-card__img-block">
-                              <img src="img/index/news/news-img.jpg" alt="" class="news-card__img">
-                           </div>
-
-                           <div class="news-card__body">
-                              <div class="news-card__body-descr">
-                                 1 сентября 2021
-                              </div>
-                              <div class="news-card__body-text">
-                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                              </div>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-                  <div class="news__swiper-slide swiper-slide">
-                     <a class="news-block">
-                        <div class="news-card">
-                           <div class="news-card__img-block">
-                              <img src="img/index/news/news-img.jpg" alt="" class="news-card__img">
-                           </div>
-
-                           <div class="news-card__body">
-                              <div class="news-card__body-descr">
-                                 1 сентября 2021
-                              </div>
-                              <div class="news-card__body-text">
-                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor
-                              </div>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-                  <div class="news__swiper-slide swiper-slide">
-                     <a class="news-block">
-                        <div class="news-card">
-                           <div class="news-card__img-block">
-                              <img src="img/index/news/news-img.jpg" alt="" class="news-card__img">
-                           </div>
-
-                           <div class="news-card__body">
-                              <div class="news-card__body-descr">
-                                 1 сентября 2021
-                              </div>
-                              <div class="news-card__body-text">
-                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                              </div>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-                  <div class="news__swiper-slide swiper-slide">
-                     <a class="news-block">
-                        <div class="news-card">
-                           <div class="news-card__img-block">
-                              <img src="img/index/news/news-img.jpg" alt="" class="news-card__img">
-                           </div>
-
-                           <div class="news-card__body">
-                              <div class="news-card__body-descr">
-                                 1 сентября 2021
-                              </div>
-                              <div class="news-card__body-text">
-                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                              </div>
-                           </div>
-                        </div>
-                     </a>
-                  </div>
-                  ...
-               </div>
+            <div class="news__swiper-button-prev swiper-button-prev"></div>
+            <div class="news__swiper-button-next swiper-button-next"></div>
 
 
-
-            </div>
          </div>
 
 
@@ -390,7 +363,7 @@
       <div class="container footer-container">
          <div class="row footer-top">
 
-            <div class="col-lg-3 footer-top__column">
+            <div class="col-lg-3 col-md-3 footer-top__column footer-top__column-services">
                <h5 class="footer-top__column-title">
                   Наши услуги
                </h5>
@@ -433,7 +406,7 @@
                </ul>
             </div>
 
-            <div class="col-lg-3 footer-top__column">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 footer-top__column">
                <h5 class="footer-top__column-title">
                   О компании
                </h5>
@@ -476,7 +449,7 @@
                </ul>
             </div>
 
-            <div class="col-lg-2 footer-top__column footer-top__column-help">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-5 footer-top__column footer-top__column-help">
                <h5 class="footer-top__column-title">
                   Помощь
                </h5>
@@ -509,7 +482,7 @@
                </ul>
             </div>
 
-            <div class="col-lg-4 footer-top__column footer-top__column-contacts">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12 footer-top__column footer-top__column-contacts">
                <form class="footer__search">
                   <input type="search" class="footer__search-input" placeholder="Поиск по сайту">
                   <span class="footer__search-icon">

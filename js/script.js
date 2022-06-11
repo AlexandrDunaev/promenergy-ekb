@@ -22,10 +22,10 @@ const productsSwiper = new Swiper('.products__swiper', {
       clickable: true,
    },
 
-   autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-   },
+   // autoplay: {
+   //    delay: 5000,
+   //    disableOnInteraction: false,
+   // },
 
    // Navigation arrows
    navigation: {
@@ -39,12 +39,26 @@ const trustSwiper = new Swiper('.trust__swiper', {
    direction: 'horizontal',
    loop: true,
 
-   slidesPerView: 4,
+   slidesPerView: 1,
 
-   autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
+   breakpoints: {
+      576: {
+         slidesPerView: 2,
+      },
+
+      768: {
+         slidesPerView: 3,
+      },
+
+      1200: {
+         slidesPerView: 4,
+      }
    },
+
+   // autoplay: {
+   //    delay: 5000,
+   //    disableOnInteraction: false,
+   // },
 
    // Navigation arrows
    navigation: {
@@ -59,14 +73,28 @@ const newsSwiper = new Swiper('.news__swiper', {
    direction: 'horizontal',
    loop: true,
 
-   slidesPerView: 4,
+   slidesPerView: 1,
+
+   breakpoints: {
+      576: {
+         slidesPerView: 2,
+      },
+
+      768: {
+         slidesPerView: 3,
+      },
+
+      1200: {
+         slidesPerView: 4,
+      }
+   },
 
    spaceBetween: 25,
 
-   autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-   },
+   // autoplay: {
+   //    delay: 5000,
+   //    disableOnInteraction: false,
+   // },
 
    // Navigation arrows
    navigation: {
@@ -81,4 +109,12 @@ function init() {
       center: [56.880460, 60.631287],
       zoom: 18
    });
-}
+};
+
+window.addEventListener('DOMContentLoaded', function () {
+   document.querySelector('#burger').addEventListener('click', function () {
+      document.querySelector('#burger').classList.toggle('active'),
+         document.querySelector('#burger-menu').classList.toggle('is-active')
+   })
+});
+

@@ -22,7 +22,7 @@
          <div class="container header__container">
             <div class="row header-top">
 
-               <div class="col-lg-4 p-0 m-0">
+               <div class="col-lg-5 col-md-5 p-0 m-0">
                   <a href="contacts.html#map" class="header-top__pin-link header-top__item">
                      <span class="pin-link__icon">
                         <svg height="18pt" viewBox="-119 -21 682 682.66669" width="13pt"
@@ -37,7 +37,7 @@
                   </a>
                </div>
 
-               <div class="col-lg-4">
+               <div class="col-lg-3 col-md-3">
                   <a href="mailto:promenergo-ekb@bk.ru" class="header-top__mail-link header-top__item">
                      <span class="mail-link__icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -51,7 +51,7 @@
                   </a>
                </div>
 
-               <div class="col-lg-4">
+               <div class="col-lg-4 col-md-4">
                   <nav class="header-top__nav header-top__item">
                      <li class="header-top__nav-item">
                         <a href="#" class="header-top__nav-link">
@@ -80,7 +80,8 @@
          <div class="container header__container">
             <div class="row header-middle">
 
-               <div class="col-lg-2">
+
+               <div class="col-lg-2 col-md-4 col-sm-12 col-10">
                   <a href="index.html" class="header-middle__logo-link">
                      <img src="img/general/header/logo.png" alt="" class="logo-link__icon-img">
                      <div class="logo-link__img-block">
@@ -96,7 +97,8 @@
 
                </div>
 
-               <div class="col-lg-5 offset-lg-1">
+
+               <div class="col-lg-5 offset-lg-1 col-md-1 header__search-block">
                   <form class="header__search">
                      <input type="search" class="header__search-input" placeholder="Поиск по сайту">
                      <span class="header__search-icon">
@@ -108,7 +110,13 @@
                   </form>
                </div>
 
-               <div class="col-lg-2">
+               <div class="col-sm-2 col-2 burger__block">
+                  <button class="burger" id="burger">
+                     <span class="burger__item"></span>
+                  </button>
+               </div>
+
+               <div class="col-lg-2 col-md-3 col-sm-7 col-7 header__phone-block">
                   <div class="header-middle__phone-block">
                      <span class="header-middle__phone-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513.64 513.64">
@@ -124,7 +132,7 @@
                   </div>
                </div>
 
-               <div class="col-lg-2">
+               <div class="col-lg-2 col-md-3 col-sm-3 col-3 header-middle__button-block">
                   <button class="header-middle__btn main__btn">
                      Заказать звонок
                   </button>
@@ -137,6 +145,47 @@
 
       <div class="header-bottom__container">
          <div class="container header__container">
+
+            <nav id="burger-menu" class="burger-menu">
+               <ul class="burger-menu__list">
+                  <li class="burger-menu__item">
+                     <a href="products.html" class="burger-menu__link">
+                        Продукция
+                     </a>
+                  </li>
+                  <li class="burger-menu__item">
+                     <a href="services.html" class="burger-menu__link">
+                        Услуги
+                     </a>
+                  </li>
+                  <li class="burger-menu__item">
+                     <a href="prodaction.html" class="burger-menu__link">
+                        Производство
+                     </a>
+                  </li>
+                  <li class="burger-menu__item">
+                     <a href="equipment.html" class="burger-menu__link">
+                        Оборудование
+                     </a>
+                  </li>
+                  <li class="burger-menu__item">
+                     <a href="aboutus.html" class="burger-menu__link">
+                        О компании
+                     </a>
+                  </li>
+                  <li class="burger-menu__item">
+                     <a href="news.html" class="burger-menu__link">
+                        Новости
+                     </a>
+                  </li>
+                  <li class="burger-menu__item">
+                     <a href="contacts.html" class="burger-menu__link">
+                        Контакты
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+
             <div class="row header-bottom">
 
                <nav class="header-bottom__nav">
@@ -161,7 +210,7 @@
                      </a>
                   </li>
                   <li class="header-bottom__nav-item">
-                     <a href="contacts.html" class="header-bottom__nav-link">
+                     <a href="aboutus.html" class="header-bottom__nav-link">
                         О компании
                      </a>
                   </li>
@@ -180,6 +229,8 @@
             </div>
          </div>
       </div>
+
+
 
    </header>
 
@@ -268,6 +319,7 @@
                   </li>
                </ul>
             </div>
+
          </div>
          <div class="contcts-container__map-block">
             <div id="map" class="contcts-container__map"></div>
@@ -305,7 +357,7 @@
       <div class="container footer-container">
          <div class="row footer-top">
 
-            <div class="col-lg-3 footer-top__column">
+            <div class="col-lg-3 col-md-3 footer-top__column footer-top__column-services">
                <h5 class="footer-top__column-title">
                   Наши услуги
                </h5>
@@ -348,7 +400,7 @@
                </ul>
             </div>
 
-            <div class="col-lg-3 footer-top__column">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-6 footer-top__column">
                <h5 class="footer-top__column-title">
                   О компании
                </h5>
@@ -391,7 +443,7 @@
                </ul>
             </div>
 
-            <div class="col-lg-2 footer-top__column footer-top__column-help">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-5 footer-top__column footer-top__column-help">
                <h5 class="footer-top__column-title">
                   Помощь
                </h5>
@@ -424,7 +476,7 @@
                </ul>
             </div>
 
-            <div class="col-lg-4 footer-top__column footer-top__column-contacts">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12 footer-top__column footer-top__column-contacts">
                <form class="footer__search">
                   <input type="search" class="footer__search-input" placeholder="Поиск по сайту">
                   <span class="footer__search-icon">
@@ -457,7 +509,7 @@
                               d="M339.392 258.624L512 367.744V144.896zM0 144.896v222.848l172.608-109.12zM480 80H32C16.032 80 3.36 91.904.96 107.232L256 275.264l255.04-168.032C508.64 91.904 495.968 80 480 80zM310.08 277.952l-45.28 29.824a15.983 15.983 0 0 1-8.8 2.624c-3.072 0-6.112-.864-8.8-2.624l-45.28-29.856L1.024 404.992C3.488 420.192 16.096 432 32 432h448c15.904 0 28.512-11.808 30.976-27.008L310.08 277.952z" />
                         </svg>
                      </span>
-                     <a href="mailto:promenergo-ekb@bk.ru" class="footer__contacts-link footer__contacts-mail">
+                     <a href="" class="footer__contacts-link footer__contacts-mail">
                         promenergo-ekb@bk.ru
                      </a>
                   </div>
